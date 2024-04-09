@@ -16,4 +16,4 @@ def make_secure(func):
 def get_admin_password():
     return "1234"
     
-print(get_admin_password.__name__)
+print(get_admin_password())
